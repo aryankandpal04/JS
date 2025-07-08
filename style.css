@@ -1,0 +1,55 @@
+@layer base, theme;
+
+@layer base {
+  :root {
+    --bg: #fff;
+    --fg: #333;
+    --accent: #6200ee;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: system-ui, sans-serif;
+    padding: 1rem;
+  }
+
+  header, footer {
+    background: var(--accent);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  canvas {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    border: 1px solid #ccc;
+  }
+
+  user-card {
+    display: block;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 2px dashed var(--accent);
+    border-radius: 8px;
+    background: #f9f9f9;
+    width: fit-content;
+    text-align: center;
+  }
+}
+
+@layer theme {
+  @supports (selector(:has(p))) {
+    section:has(canvas) {
+      outline: 2px dashed green;
+      padding: 1rem;
+    }
+  }
+}
