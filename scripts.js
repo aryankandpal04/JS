@@ -11,7 +11,7 @@ console.log("hello js dev");
     let back = null;
     let bloodGroup = undefined;
 
-    console.log("Name : ", fullName, "\nRoll No. : ", rollNo, "\nMarks : ", cgpa, "\nPass : ", isPass, "\nBack : ", back, "\nBlood Group : ", bloodGroup);
+    //console.log("Name : ", fullName, "\nRoll No. : ", rollNo, "\nMarks : ", cgpa, "\nPass : ", isPass, "\nBack : ", back, "\nBlood Group : ", bloodGroup);
 }
 
 // datatypes in js
@@ -27,12 +27,12 @@ console.log("hello js dev");
     let a = null;
     let b = undefined;
     
-    console.log("the value is",num,"and is type of",typeof(num));
-    console.log("the value is",str,"and is type of",typeof(str));
-    console.log("the value is",decimal,"and is type of",typeof(decimal));
-    console.log("the value is",opinion,"and is type of",typeof(opinion));
-    console.log("the value is",a,"and is type of",typeof(a));
-    console.log("the value is",b,"and is type of",typeof(b));
+    // console.log("the value is",num,"and is type of",typeof(num));
+    // console.log("the value is",str,"and is type of",typeof(str));
+    // console.log("the value is",decimal,"and is type of",typeof(decimal));
+    // console.log("the value is",opinion,"and is type of",typeof(opinion));
+    // console.log("the value is",a,"and is type of",typeof(a));
+    // console.log("the value is",b,"and is type of",typeof(b));
 
 }
 
@@ -47,6 +47,12 @@ console.log("hello js dev");
         isPass : true
     };
 
-    console.log("the obj is \n",student,"\nand is type of",typeof(student))
+    //console.log("the obj is \n",student,"\nand is type of",typeof(student))
 
+}
+
+// Operators
+{
+    //Arithmetic Operator
+    let a = 45;
 }
