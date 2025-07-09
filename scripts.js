@@ -15,3 +15,13 @@ console.log("hello js dev");
 }
 
 // datatypes in js
+
+{
+    let num = 45;
+    let text = 65;
+    let decimal = 46.35;
+    
+    console.log(typeof(num));
+    console.log(typeof(text));
+
+}
