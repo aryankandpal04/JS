@@ -57,6 +57,8 @@ console.log("\t\t\t\t\thello js dev");
     let a = 45;
     let b = 23;
 
+    console.log("value of a : ",a);
+    console.log("value of b : ",b);
     //binary operator
     console.log("Addition : ",a+b);
     console.log("Subtraction : ",a-b);
