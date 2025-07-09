@@ -3,12 +3,15 @@
 console.log("hello js dev");
 
 // variables in js
+{
+    let fullName = "Aryan Kandpal";
+    let rollNo = 16;
+    let marks = 7.86;
+    let pass = true;
+    let back = null;
+    let bloodGroup = undefined;
 
-fullName = "Aryan Kandpal";
-rollNo = 16;
-marks = 7.86;
-pass = true;
-back = null;
-bloodGroup = undefined;
+    console.log("Name : ", fullName, "\nRoll No. : ", rollNo, "\nMarks : ", marks, "\nPass : ", pass, "\nBack : ", back, "\nBlood Group : ", bloodGroup);
+}
 
-console.log(fullName, rollNo, marks, pass, back, bloodGroup);
+// datatypes in js
