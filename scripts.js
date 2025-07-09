@@ -55,4 +55,22 @@ console.log("hello js dev");
 {
     //Arithmetic Operator
     let a = 45;
+    let b = 23;
+
+    //binary operator
+    console.log("Addition : ",a+b);
+    console.log("Subtraction : ",a-b);
+    console.log("Multiplication : ",a*b);
+    console.log("Division : ",a/b);
+    console.log("Remainder : ",a%b);
+    console.log("exponent : ",a**2);
+
+    //unary operator
+    console.log("post increment : ",a++);
+    console.log(a);
+    console.log("pre increment : ",++a);
+    console.log("post decrement : ",b--);
+    console.log(b);
+    console.log("pre decrement : ",--b)
+
 }
