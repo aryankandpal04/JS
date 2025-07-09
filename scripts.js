@@ -1,6 +1,6 @@
 // Introduction to js
 
-console.log("hello js dev");
+console.log("\t\t\t\t\thello js dev");
 
 // variables in js
 {
