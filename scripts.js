@@ -58,7 +58,7 @@ console.log("\t\t\t\t\thello js dev");
     let b = 23;
     let c = "45"
 
-    console.log("value of a : ",a," and its type is ",typeof(a));
+    console.log("\nvalue of a : ",a," and its type is ",typeof(a));
     console.log("value of b : ",b," and its type is ",typeof(b));
     console.log("value of c : ",c," and its type is ",typeof(c))
     //binary operator
@@ -80,16 +80,24 @@ console.log("\t\t\t\t\thello js dev");
     console.log("pre decrement : ",--b)
 */
     //comparison operator
-
-    console.log("a = ",a," and b = ",b," are they equal : ",a==b);
+/*
+    console.log("\na = ",a," and b = ",b," are they equal : ",a==b);
     console.log("a = ",a," and b = ",b," are they not equal : ",a!=b);
     console.log("a = ",a," and c = ",c," are they equal : ",a==c);
     console.log("a = ",a," and c = ",c," are they equal : ",a!=c);
-    console.log("a = ",a," and c = ",c," are they equal : ",a===c);
+    console.log("\na = ",a," and c = ",c," are they equal : ",a===c);
     console.log("a = ",a," and c = ",c," are they equal : ",a!==c);
-    console.log("a = ",a," and c = ",b," are they equal : ",a>b);
-    console.log("a = ",a," and c = ",b," are they equal : ",a<b);
-    console.log("a = ",a," and c = ",b," are they equal : ",a<=b);
-    console.log("a = ",a," and c = ",b," are they equal : ",a>=b);
-        
+    console.log("\na = ",a," and b = ",b," is a is greater than b : ",a>b);
+    console.log("a = ",a," and b = ",b," is a is smaller than b : ",a<b);
+    console.log("a = ",a," and b = ",b," is a is smaller than & equal to b : ",a<=b);
+    console.log("a = ",a," and b = ",b," is a is greater than & equal to b : ",a>=b);
+
+*/
+    //Logical Operator
+
+    let cond1 = (a === b);
+    let cond2 = (a > b);
+
+    console.log("(45 === 23) && (45 > 23) ",cond1 && cond2);
+    
 }
