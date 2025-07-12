@@ -108,7 +108,7 @@ console.log("\t\t\t\t\thello js dev");
 
 {
     //if statement
-
+/*
     let age = 20;
     if (age<18){
         console.log("you are not eligible.");
@@ -116,9 +116,9 @@ console.log("\t\t\t\t\thello js dev");
     if(age>=18){
         console.log("you are eligible");
     }
-
+*/
     //if-else statement
-
+/*
     let button = "ON";
     if(button === "ON"){
         console.log("bulb glow");
@@ -126,8 +126,37 @@ console.log("\t\t\t\t\thello js dev");
     else{
         console.log("bulb not glow");
     }
-
+*/
     // else-if statement
+/*
+    let num1 = 45;
+    let op = "=";
+    let num2 = 25;
 
-    let 
+    if (op === "+"){
+        console.log("addition of ",num1," and ",num2," is ",num1+num2);
+    }
+    else if(op === "-"){
+        console.log("Subtraction of ",num1," and ",num2," is ",num1-num2);
+    }
+    else if(op === "*"){
+        console.log("multiplication of ",num1," and ",num2," is ",num1*num2);
+    }
+    else if(op === "/"){
+        console.log("Division of ",num1," and ",num2," is ",num1/num2);
+    }
+    else{
+        console.log("Invalid Input");
+    }
+*/
+    // ternary operator
+/*
+    let age = 18;
+
+    let statement = age >= 18 ? "you eligible for driving":"you not eligible for driving";
+
+    console.log(statement);
+*/
+
+
 }
