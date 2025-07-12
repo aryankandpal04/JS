@@ -58,8 +58,9 @@ console.log("\t\t\t\t\thello js dev");
     let b = 23;
     let c = "45"
 
-    console.log("value of a : ",a);
-    console.log("value of b : ",b);
+    console.log("value of a : ",a," and its type is ",typeof(a));
+    console.log("value of b : ",b," and its type is ",typeof(b));
+    console.log("value of c : ",c," and its type is ",typeof(c))
     //binary operator
 /*
     console.log("Addition : ",a+b);
@@ -80,13 +81,15 @@ console.log("\t\t\t\t\thello js dev");
 */
     //comparison operator
 
-    console.log("a = ",a," and b = ",b," are they equal ",a==b);
-    console.log("a = ",a," and b = ",b," are they not equal ",a!=b);
-    console.log("a = ",a," and c = ",c," are they equal ",a===c);
-    console.log("a = ",a," and c = ",c," are they equal ",a!==c);
-    console.log("a = ",a," and c = ",b," are they equal ",a>b);
-    console.log("a = ",a," and c = ",b," are they equal ",a<b);
-    console.log("a = ",a," and c = ",b," are they equal ",a<=b);
-    console.log("a = ",a," and c = ",b," are they equal ",a>=b);
+    console.log("a = ",a," and b = ",b," are they equal : ",a==b);
+    console.log("a = ",a," and b = ",b," are they not equal : ",a!=b);
+    console.log("a = ",a," and c = ",c," are they equal : ",a==c);
+    console.log("a = ",a," and c = ",c," are they equal : ",a!=c);
+    console.log("a = ",a," and c = ",c," are they equal : ",a===c);
+    console.log("a = ",a," and c = ",c," are they equal : ",a!==c);
+    console.log("a = ",a," and c = ",b," are they equal : ",a>b);
+    console.log("a = ",a," and c = ",b," are they equal : ",a<b);
+    console.log("a = ",a," and c = ",b," are they equal : ",a<=b);
+    console.log("a = ",a," and c = ",b," are they equal : ",a>=b);
         
 }
