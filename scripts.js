@@ -56,23 +56,37 @@ console.log("\t\t\t\t\thello js dev");
     //Arithmetic Operator
     let a = 45;
     let b = 23;
+    let c = "45"
 
     console.log("value of a : ",a);
     console.log("value of b : ",b);
     //binary operator
+/*
     console.log("Addition : ",a+b);
     console.log("Subtraction : ",a-b);
     console.log("Multiplication : ",a*b);
     console.log("Division : ",a/b);
     console.log("Remainder : ",a%b);
     console.log("exponent : ",a**2);
-
+*/
     //unary operator
+/*
     console.log("post increment : ",a++);
     console.log(a);
     console.log("pre increment : ",++a);
     console.log("post decrement : ",b--);
     console.log(b);
     console.log("pre decrement : ",--b)
+*/
+    //comparison operator
 
+    console.log("a = ",a," and b = ",b," are they equal ",a==b);
+    console.log("a = ",a," and b = ",b," are they not equal ",a!=b);
+    console.log("a = ",a," and c = ",c," are they equal ",a===c);
+    console.log("a = ",a," and c = ",c," are they equal ",a!==c);
+    console.log("a = ",a," and c = ",b," are they equal ",a>b);
+    console.log("a = ",a," and c = ",b," are they equal ",a<b);
+    console.log("a = ",a," and c = ",b," are they equal ",a<=b);
+    console.log("a = ",a," and c = ",b," are they equal ",a>=b);
+        
 }
