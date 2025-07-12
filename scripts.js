@@ -57,10 +57,11 @@ console.log("\t\t\t\t\thello js dev");
     let a = 45;
     let b = 23;
     let c = "45"
-
+/*
     console.log("\nvalue of a : ",a," and its type is ",typeof(a));
     console.log("value of b : ",b," and its type is ",typeof(b));
-    console.log("value of c : ",c," and its type is ",typeof(c))
+    console.log("value of c : ",c," and its type is ",typeof(c));
+*/    
     //binary operator
 /*
     console.log("Addition : ",a+b);
@@ -94,10 +95,39 @@ console.log("\t\t\t\t\thello js dev");
 
 */
     //Logical Operator
-
+/*
     let cond1 = (a === b);
     let cond2 = (a > b);
 
-    console.log("(45 === 23) && (45 > 23) ",cond1 && cond2);
-    
+    console.log("(a === b) && (a > b) ",cond1 && cond2);
+    console.log("(a === b) || (a > b) ",cond1 || cond2);
+    console.log("!(a === b)", !(cond1));
+*/
+}
+// conditional statement
+
+{
+    //if statement
+
+    let age = 20;
+    if (age<18){
+        console.log("you are not eligible.");
+    }
+    if(age>=18){
+        console.log("you are eligible");
+    }
+
+    //if-else statement
+
+    let button = "ON";
+    if(button === "ON"){
+        console.log("bulb glow");
+    }
+    else{
+        console.log("bulb not glow");
+    }
+
+    // else-if statement
+
+    let 
 }
