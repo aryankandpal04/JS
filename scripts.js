@@ -95,10 +95,10 @@ console.log("\t\t\t\t\thello js dev");
 
 */
     //Logical Operator
-/*
+
     let cond1 = (a === b);
     let cond2 = (a > b);
-
+/*
     console.log("(a === b) && (a > b) ",cond1 && cond2);
     console.log("(a === b) || (a > b) ",cond1 || cond2);
     console.log("!(a === b)", !(cond1));
@@ -108,8 +108,9 @@ console.log("\t\t\t\t\thello js dev");
 
 {
     //if statement
-/*
+
     let age = 20;
+/*
     if (age<18){
         console.log("you are not eligible.");
     }
@@ -118,8 +119,9 @@ console.log("\t\t\t\t\thello js dev");
     }
 */
     //if-else statement
-/*
+
     let button = "ON";
+/*
     if(button === "ON"){
         console.log("bulb glow");
     }
@@ -128,11 +130,11 @@ console.log("\t\t\t\t\thello js dev");
     }
 */
     // else-if statement
-/*
+
     let num1 = 45;
     let op = "=";
     let num2 = 25;
-
+/*
     if (op === "+"){
         console.log("addition of ",num1," and ",num2," is ",num1+num2);
     }
@@ -150,13 +152,26 @@ console.log("\t\t\t\t\thello js dev");
     }
 */
     // ternary operator
-/*
-    let age = 18;
 
     let statement = age >= 18 ? "you eligible for driving":"you not eligible for driving";
-
+/*
     console.log(statement);
 */
 
+}
+{
+    // user-input
+/*
+    let num = prompt("enter a number : ");
+
+    if (num % 2 === 0){
+        alert("this number is even");
+        console.log("even")
+    }
+    else{
+        alert("this number is odd");
+        console.log("odd")
+    }
+*/
 
 }
