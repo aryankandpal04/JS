@@ -27,25 +27,28 @@
     */
 
     let marks = prompt("enter your marks : ");
+    let grade;
     marks = Number(marks);
 
     if (marks >= 90 && marks <= 100){
-        console.log("A");
+        grade = "A";
     }
     else if (marks >= 70 && marks <=89){
-        console.log("B");
+        grade = "B";
     }
     else if (marks >= 60 && marks <=69 ){
-        console.log("C")
+        grade = "C";
     }
-    else if (marks >= 50 && marks >= 50 ){
-        console.log("D")
+    else if (marks >= 50 && marks <= 59 ){
+        grade = "D";
     }
-    else if (marks >= 0 && marks >= 49 ){
-        console.log("F")
+    else if (marks >= 0 && marks <= 49 ){
+        grade = "F";
     }
     else{
         console.log("Invalid Input!");
     }
+
+    console.log(`According to yours marks ${marks} your grade is ${grade}`);
 
 }
