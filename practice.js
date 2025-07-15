@@ -25,7 +25,7 @@
       -  50-59, D
       -  0-49, F
     */
-
+/*
     let marks = prompt("enter your marks : ");
     let grade;
     marks = Number(marks);
@@ -50,5 +50,5 @@
     }
 
     console.log(`According to yours marks ${marks} your grade is ${grade}`);
-
+*/
 }
