@@ -53,7 +53,7 @@ console.log("\t\t\t\t\thello js dev");
 }
 
 // Operators
-{   
+{
     let a = 45;
     let b = 23;
     let c = "45"
@@ -211,11 +211,21 @@ console.log("\t\t\t\t\thello js dev");
 
     {
         // for loop
+/*
         let num = 10;
-        for (let i = 0; i <= num; i++) {
+        for (let i = 1; i <= num; i++) {
             {
-                console.log(i)
+                if (i % 2 === 0) {
+                    console.log(i)
+                }
             }
         }
+*/
+        let sum = 0;
+        for(let i = 1; i<= 5; i++){
+            sum += i;
+        }
+        console.log(sum);
+
     }
 }
