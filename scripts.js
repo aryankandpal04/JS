@@ -258,7 +258,9 @@ console.log("\t\t\t\t\thello js dev");
 
     {
         // for-of loop
-        
+        for(let i of str){
+            str = "Aryan Kandpal";
+        }
     }
 
 }
