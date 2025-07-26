@@ -273,6 +273,8 @@ console.log("\t\t\t\t\thello js dev");
                 CGPA : 7.6,
                 isPass : true
             };
+
+            for()
         }
 
 }
