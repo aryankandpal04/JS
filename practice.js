@@ -1,7 +1,7 @@
 // Practice
 
 {
-    //Q1 Get user to input a number using prompt("Enter a number:"). Check if the number is a multiple of 5 or not.
+    //Q1 - Get user to input a number using prompt("Enter a number:"). Check if the number is a multiple of 5 or not.
 /*
     let num = prompt("enter a number : ");
     num = Number(num);
@@ -18,7 +18,7 @@
 
 {
     /*
-    Q2 Write a code which can give grades to students according to their scores.
+    Q2 - Write a code which can give grades to students according to their scores.
       -  90-100, A
       -  70-89, B
       -  60-69, C
@@ -51,4 +51,26 @@
 
     console.log(`According to yours marks ${marks} your grade is ${grade}`);
 */
+}
+
+{
+    // Q3 - Print all even numbers from 0 to 100.
+/*
+    for(let i = 0 ; i <= 100 ; i++){
+        if(i%2 === 0 ){
+            console.log(i);
+        }
+    } 
+*/
+}
+
+{
+    // Q4 - Guess the correct number
+    
+    let gameNum = 86;
+
+    let userInput = prompt("Enter any number : ");
+    while (userInput === gameNum){
+        console.log("hurray, You Guess it....");
+    }
 }
