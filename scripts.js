@@ -286,7 +286,7 @@ console.log("\t\t\t\t\thello js dev");
 
 {
     //Strings
-
+/*
     let str1 = "Sample1";
     let str2 = 'Sample2';
     let str3 = `Sample3`;   //template literals
@@ -306,6 +306,6 @@ console.log("\t\t\t\t\thello js dev");
     
     // this is new method...
     console.log(`Hello, my name is ${student.name}, my roll no. is ${student.rollNo} and i am pursuing ${student.course} from ABC University.`);
-
+*/
 
 }
