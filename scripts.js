@@ -282,5 +282,30 @@ console.log("\t\t\t\t\thello js dev");
 */            
     }
     
+}
+
+{
+    //Strings
+
+    let str1 = "Sample1";
+    let str2 = 'Sample2';
+    let str3 = `Sample3`;   //template literals
+
+    console.log(str1[3]); 
+    console.log(typeof(str2));
+    console.log(typeof(str3));
+
+    let student ={
+        name : 'Ravi',
+        rollNo : 23,
+        course : 'BCA'
+    }
+
+    // this is old method...
+    console.log("Hello, my name is", student.name,"my roll no. is ", student.rollNo,"and i am pursuing",student.course,"from ABC University."); 
+    
+    // this is new method...
+    console.log(`Hello, my name is ${student.name}, my roll no. is ${student.rollNo} and i am pursuing ${student.course} from ABC University.`);
+
 
 }
