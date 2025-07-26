@@ -69,7 +69,7 @@
     
     let gameNum = 86;
 
-    let userInput = prompt("Enter any number : ");
+    let userInput = prompt("guess any number : ");
   
     while (gameNum != userInput){
         if(gameNum === userInput){
@@ -77,7 +77,7 @@
             break;
         }
         else{
-            console.log("try again....");
+            console.log("try again....")
             break;
         }
     }
