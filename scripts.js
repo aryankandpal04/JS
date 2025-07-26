@@ -221,11 +221,44 @@ console.log("\t\t\t\t\thello js dev");
             }
         }
 */
+/*
         let sum = 0;
         for(let i = 1; i<= 5; i++){
             sum += i;
         }
         console.log(sum);
+*/
 
     }
+
+    {
+        // While Loop
+/*
+        let i = 1;
+        while(i<=5){
+            console.log(i);
+            i++;
+        }
+*/
+    }
+
+    {
+        // do-while loop
+/*
+        let i = 1;
+        
+        do{
+  
+            console.log(i);
+            i++;
+        }
+        while(i<=5);
+*/
+    }
+
+    {
+        // for-of loop
+        
+    }
+
 }
