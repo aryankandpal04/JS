@@ -265,16 +265,22 @@ console.log("\t\t\t\t\thello js dev");
         }
 */
     }
+        
+    {
         //for-in loop
-        {
-            let   student = {
-                Name : "Aryan",
-                course : "MCA",
-                CGPA : 7.6,
-                isPass : true
-            };
+/*        
+        let   student = {
+            Name : "Aryan",
+            course : "MCA",
+            CGPA : 7.6,
+            isPass : true
+        };
 
-            for()
+        for(let i in student){
+            console.log(i ,"=",student[i]);
         }
+*/            
+    }
+    
 
 }
