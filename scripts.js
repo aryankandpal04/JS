@@ -258,9 +258,21 @@ console.log("\t\t\t\t\thello js dev");
 
     {
         // for-of loop
+/*
+       let str = "Aryan Kandpal";
         for(let i of str){
-            str = "Aryan Kandpal";
+            console.log(i);
         }
+*/
     }
+        //for-in loop
+        {
+            let   student = {
+                Name : "Aryan",
+                course : "MCA",
+                CGPA : 7.6,
+                isPass : true
+            };
+        }
 
 }
