@@ -70,7 +70,15 @@
     let gameNum = 86;
 
     let userInput = prompt("Enter any number : ");
-    while (userInput === gameNum){
-        console.log("hurray, You Guess it....");
+  
+    while (gameNum != userInput){
+        if(gameNum === userInput){
+            console.log("Hurray, you guess it....");
+            break;
+        }
+        else{
+            console.log("try again....");
+            break;
+        }
     }
 }
