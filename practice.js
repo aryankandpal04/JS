@@ -72,13 +72,8 @@
     let userInput = prompt("guess any number : ");
   
     while (gameNum != userInput){
-        if(gameNum === userInput){
-            console.log("Hurray, you guess it....");
-            break;
-        }
-        else{
-            console.log("try again....")
-            break;
-        }
+    
+        userInput = prompt("oops not valid number....TRY AGAIN!!");
     }
+    alert(`congratulations.....you guess the correct number.`)
 }
