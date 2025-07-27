@@ -298,7 +298,9 @@ console.log("\t\t\t\t\thello js dev");
 }
 
 {
-  let str = "     Aryan Kandpal     ";
+  let str = "     I am \nAryan\tKandpal     ";
 
-  console.log
+  console.log(str)
+  console.log(str.length);
+  console.log(str.trim())
 }
