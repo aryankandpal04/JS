@@ -298,5 +298,6 @@ console.log("\t\t\t\t\thello js dev");
 }
 
 {
-  let str = "       Aryan Kandpal      ";
+  let str = "     Aryan Kandpal     ";
+  
 }
