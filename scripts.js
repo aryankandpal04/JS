@@ -288,7 +288,7 @@ console.log("\t\t\t\t\thello js dev");
     //Strings
     let str1 = "Sample1";
     let str2 = 'Sample2';
-    let str3 = `Sample3`;   //template literals
+    let str3 = `Sample3`;   //template literals - special type of string.
 /*
     console.log(str1[3]); 
     console.log(typeof(str2));
