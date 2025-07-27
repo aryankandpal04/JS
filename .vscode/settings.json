@@ -3,5 +3,6 @@
         "cgpa",
         "Ravi"
     ],
-    "editor.mouseWheelZoom": true
+    "editor.mouseWheelZoom": true,
+    "indentOneSpace.onlyCompleteRange": true
 }
