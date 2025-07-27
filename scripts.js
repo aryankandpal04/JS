@@ -100,7 +100,7 @@ console.log("\t\t\t\t\thello js dev");
             console.log("a = ",a," and b = ",b," is a is smaller than b : ",a<b);
             console.log("a = ",a," and b = ",b," is a is smaller than & equal to b : ",a<=b);
             console.log("a = ",a," and b = ",b," is a is greater than & equal to b : ",a>=b);
-        
+
         */
   }
 
@@ -186,7 +186,7 @@ console.log("\t\t\t\t\thello js dev");
 {
   /*
         let num = prompt("enter a number : ");
-    
+
         if (num % 2 === 0){
             alert("this number is even");
             console.log("even")
@@ -236,9 +236,9 @@ console.log("\t\t\t\t\thello js dev");
     // do-while loop
     /*
         let i = 1;
-        
+
         do{
-  
+
             console.log(i);
             i++;
         }
@@ -258,7 +258,7 @@ console.log("\t\t\t\t\thello js dev");
 
   {
     //for-in loop
-    /*        
+    /*
         let   student = {
             Name : "Aryan",
             course : "MCA",
@@ -279,7 +279,7 @@ console.log("\t\t\t\t\thello js dev");
   let str2 = "Sample2";
   let str3 = `Sample3`; //template literals - special type of string.
   /*
-    console.log(str1[3]); 
+    console.log(str1[3]);
     console.log(typeof(str2));
     console.log(typeof(str3));
 
@@ -290,8 +290,8 @@ console.log("\t\t\t\t\thello js dev");
     }
 
     // this is old method...
-    console.log("Hello, my name is", student.name,"my roll no. is ", student.rollNo,"and i am pursuing",student.course,"from ABC University."); 
-    
+    console.log("Hello, my name is", student.name,"my roll no. is ", student.rollNo,"and i am pursuing",student.course,"from ABC University.");
+
     // this is new method...
     console.log(`Hello, my name is ${student.name}, my roll no. is ${student.rollNo} and i am pursuing ${student.course} from ABC University.`);
 */
@@ -299,5 +299,6 @@ console.log("\t\t\t\t\thello js dev");
 
 {
   let str = "     Aryan Kandpal     ";
-  
+
+  console.log
 }
