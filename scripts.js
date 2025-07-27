@@ -299,6 +299,8 @@ console.log("\t\t\t\t\thello js dev");
 
 {
   let str = "     I am \nAryan\tKandpal     ";
+  let str1 = "Uttar";
+  let str2 = "Pradesh";
 
   console.log(`text : ${str}`);
   console.log(`string length : ${str.length}`);
@@ -306,5 +308,5 @@ console.log("\t\t\t\t\thello js dev");
   console.log(`Upper Case : ${str.toUpperCase()}`);
   console.log(`Lower Case : ${str.toLowerCase()}`);
   console.log(`Sliced String : ${str.slice(11,16)}`);
-  console.log(``)
+  console.log(`Concatenate ${}`)
 }
