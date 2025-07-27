@@ -4,72 +4,68 @@ console.log("\t\t\t\t\thello js dev");
 
 // variables in js
 {
-    let fullName = "Aryan Kandpal";
-    let rollNo = 16;
-    let cgpa = 7.86;
-    let isPass = true;
-    let back = null;
-    let bloodGroup = undefined;
+  let fullName = "Aryan Kandpal";
+  let rollNo = 16;
+  let cgpa = 7.86;
+  let isPass = true;
+  let back = null;
+  let bloodGroup = undefined;
 
-    //console.log("Name : ", fullName, "\nRoll No. : ", rollNo, "\nMarks : ", cgpa, "\nPass : ", isPass, "\nBack : ", back, "\nBlood Group : ", bloodGroup);
+  //console.log("Name : ", fullName, "\nRoll No. : ", rollNo, "\nMarks : ", cgpa, "\nPass : ", isPass, "\nBack : ", back, "\nBlood Group : ", bloodGroup);
 }
 
 // datatypes in js
 {
-    {
-        // primitive datatypes are of 7 types i.e. Number, String, Boolean, Null, BigInt, Symbol
+  {
+    // primitive datatypes are of 7 types i.e. Number, String, Boolean, Null, BigInt, Symbol
 
+    let num = 45;
+    let str = "Hello";
+    let decimal = 46.35;
+    let opinion = true;
+    let a = null;
+    let b = undefined;
 
-        let num = 45;
-        let str = "Hello";
-        let decimal = 46.35;
-        let opinion = true;
-        let a = null;
-        let b = undefined;
+    // console.log("the value is",num,"and is type of",typeof(num));
+    // console.log("the value is",str,"and is type of",typeof(str));
+    // console.log("the value is",decimal,"and is type of",typeof(decimal));
+    // console.log("the value is",opinion,"and is type of",typeof(opinion));
+    // console.log("the value is",a,"and is type of",typeof(a));
+    // console.log("the value is",b,"and is type of",typeof(b));
+  }
 
-        // console.log("the value is",num,"and is type of",typeof(num));
-        // console.log("the value is",str,"and is type of",typeof(str));
-        // console.log("the value is",decimal,"and is type of",typeof(decimal));
-        // console.log("the value is",opinion,"and is type of",typeof(opinion));
-        // console.log("the value is",a,"and is type of",typeof(a));
-        // console.log("the value is",b,"and is type of",typeof(b));
+  {
+    // non-primitive datatypes
 
-    }
+    const student = {
+      fullName: "Aryan Kandpal",
+      age: 20,
+      course: "BCA",
+      cgpa: 7.86,
+      isPass: true,
+    };
 
-    {
-        // non-primitive datatypes
-
-        const student = {
-            fullName: "Aryan Kandpal",
-            age: 20,
-            course: "BCA",
-            cgpa: 7.86,
-            isPass: true
-        };
-
-        //console.log("the obj is \n",student,"\nand is type of",typeof(student))
-
-    }
+    //console.log("the obj is \n",student,"\nand is type of",typeof(student))
+  }
 }
 
 // Operators
 {
-    let a = 45;
-    let b = 23;
-    let c = "45"
-    {
-        //Arithmetic Operator
-
-        /*
+  let a = 45;
+  let b = 23;
+  let c = "45";
+  {
+    //Arithmetic Operator
+    /*
             console.log("\nvalue of a : ",a," and its type is ",typeof(a));
             console.log("value of b : ",b," and its type is ",typeof(b));
             console.log("value of c : ",c," and its type is ",typeof(c));
         */
-    }
+  }
 
-    {
-        //binary operator
-        /*
+  {
+    //binary operator
+    /*
             console.log("Addition : ",a+b);
             console.log("Subtraction : ",a-b);
             console.log("Multiplication : ",a*b);
@@ -77,11 +73,11 @@ console.log("\t\t\t\t\thello js dev");
             console.log("Remainder : ",a%b);
             console.log("exponent : ",a**2);
         */
-    }
+  }
 
-    {
-        //unary operator
-        /*
+  {
+    //unary operator
+    /*
             console.log("post increment : ",a++);
             console.log(a);
             console.log("pre increment : ",++a);
@@ -89,11 +85,11 @@ console.log("\t\t\t\t\thello js dev");
             console.log(b);
             console.log("pre decrement : ",--b)
         */
-    }
+  }
 
-    {
-        //comparison operator
-        /*
+  {
+    //comparison operator
+    /*
             console.log("\na = ",a," and b = ",b," are they equal : ",a==b);
             console.log("a = ",a," and b = ",b," are they not equal : ",a!=b);
             console.log("a = ",a," and c = ",c," are they equal : ",a==c);
@@ -106,29 +102,27 @@ console.log("\t\t\t\t\thello js dev");
             console.log("a = ",a," and b = ",b," is a is greater than & equal to b : ",a>=b);
         
         */
-    }
+  }
 
-    {
-        //Logical Operator
+  {
+    //Logical Operator
 
-        let cond1 = (a === b);
-        let cond2 = (a > b);
-        /*
+    let cond1 = a === b;
+    let cond2 = a > b;
+    /*
             console.log("(a === b) && (a > b) ",cond1 && cond2);
             console.log("(a === b) || (a > b) ",cond1 || cond2);
             console.log("!(a === b)", !(cond1));
         */
-    }
+  }
 }
 
 // conditional statement
 {
-
-    let age = 20;
-    {
-        //if statement
-
-        /*
+  let age = 20;
+  {
+    //if statement
+    /*
             if (age<18){
                 console.log("you are not eligible.");
             }
@@ -136,13 +130,13 @@ console.log("\t\t\t\t\thello js dev");
                 console.log("you are eligible");
             }
         */
-    }
+  }
 
-    {
-        //if-else statement
+  {
+    //if-else statement
 
-        let button = "ON";
-        /*
+    let button = "ON";
+    /*
             if(button === "ON"){
                 console.log("bulb glow");
             }
@@ -150,15 +144,15 @@ console.log("\t\t\t\t\thello js dev");
                 console.log("bulb not glow");
             }
         */
-    }
+  }
 
-    {
-        // else-if statement
+  {
+    // else-if statement
 
-        let num1 = 45;
-        let op = "=";
-        let num2 = 25;
-        /*
+    let num1 = 45;
+    let op = "=";
+    let num2 = 25;
+    /*
             if (op === "+"){
                 console.log("addition of ",num1," and ",num2," is ",num1+num2);
             }
@@ -175,23 +169,22 @@ console.log("\t\t\t\t\thello js dev");
                 console.log("Invalid Input");
             }
         */
-    }
+  }
 
-    {
-        // ternary operator
+  {
+    // ternary operator
 
-        let statement = age >= 18 ? "you eligible for driving" : "you not eligible for driving";
-        /*
+    let statement =
+      age >= 18 ? "you eligible for driving" : "you not eligible for driving";
+    /*
             console.log(statement);
         */
-    }
-
+  }
 }
 
 // user-input
 {
-
-    /*
+  /*
         let num = prompt("enter a number : ");
     
         if (num % 2 === 0){
@@ -203,15 +196,13 @@ console.log("\t\t\t\t\thello js dev");
             console.log("odd")
         }
     */
-
 }
 
 // Loops
 {
-
-    {
-        // for loop
-/*
+  {
+    // for loop
+    /*
         let num = 10;
         for (let i = 1; i <= num; i++) {
             {
@@ -221,30 +212,29 @@ console.log("\t\t\t\t\thello js dev");
             }
         }
 */
-/*
+    /*
         let sum = 0;
         for(let i = 1; i<= 5; i++){
             sum += i;
         }
         console.log(sum);
 */
+  }
 
-    }
-
-    {
-        // While Loop
-/*
+  {
+    // While Loop
+    /*
         let i = 1;
         while(i<=5){
             console.log(i);
             i++;
         }
 */
-    }
+  }
 
-    {
-        // do-while loop
-/*
+  {
+    // do-while loop
+    /*
         let i = 1;
         
         do{
@@ -254,21 +244,21 @@ console.log("\t\t\t\t\thello js dev");
         }
         while(i<=5);
 */
-    }
+  }
 
-    {
-        // for-of loop
-/*
+  {
+    // for-of loop
+    /*
        let str = "Aryan Kandpal";
         for(let i of str){
             console.log(i);
         }
 */
-    }
-        
-    {
-        //for-in loop
-/*        
+  }
+
+  {
+    //for-in loop
+    /*        
         let   student = {
             Name : "Aryan",
             course : "MCA",
@@ -279,17 +269,16 @@ console.log("\t\t\t\t\thello js dev");
         for(let i in student){
             console.log(i ,"=",student[i]);
         }
-*/            
-    }
-    
+*/
+  }
 }
 
 {
-    //Strings
-    let str1 = "Sample1";
-    let str2 = 'Sample2';
-    let str3 = `Sample3`;   //template literals - special type of string.
-/*
+  //Strings
+  let str1 = "Sample1";
+  let str2 = "Sample2";
+  let str3 = `Sample3`; //template literals - special type of string.
+  /*
     console.log(str1[3]); 
     console.log(typeof(str2));
     console.log(typeof(str3));
@@ -306,11 +295,8 @@ console.log("\t\t\t\t\thello js dev");
     // this is new method...
     console.log(`Hello, my name is ${student.name}, my roll no. is ${student.rollNo} and i am pursuing ${student.course} from ABC University.`);
 */
-
 }
 
 {
-    let str = "       Aryan Kandpal      "
-    
-
+  let str = "       Aryan Kandpal      ";
 }
