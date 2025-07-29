@@ -308,5 +308,5 @@ console.log("\t\t\t\t\thello js dev");
   console.log(`Upper Case : ${str.toUpperCase()}`);
   console.log(`Lower Case : ${str.toLowerCase()}`);
   console.log(`Sliced String : ${str.slice(11,16)}`);
-  console.log(`Concatenate ${}`)
+  console.log(`Concatenate ${str1 + str2}`);
 }
