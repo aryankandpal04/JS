@@ -311,5 +311,5 @@ console.log("\t\t\t\t\thello js dev");
   console.log(`Concatenate with using '+' : ${str1 + str2}`);
   console.log(`Concatenate with using method : ${str1.concat(str2)}`);
   console.log(`replace : ${str1.replace('Uttar','Himachal')}`);
-  console.log(`str`)
+  console.log(`str char position by index : ${str.charAt(3)}`);
 }
