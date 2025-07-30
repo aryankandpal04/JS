@@ -66,7 +66,7 @@
 
 {
     // Q4 - Guess the correct number
-    
+/*    
     let gameNum = 86;
 
     let userInput = prompt("guess any number : ");
@@ -76,4 +76,17 @@
         userInput = prompt("oops not valid number....TRY AGAIN!!");
     }
     alert(`congratulations.....you guess the correct number.`)
+*/
+}
+
+{
+    let firstName = "Aryan";
+    let lastName = "Kandpal";
+
+    let userName = firstName.concat(lastName);
+
+    console.log('@' + userName.toLowerCase() + userName.length)
+
+
+
 }
