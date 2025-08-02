@@ -298,6 +298,7 @@ console.log("\t\t\t\t\thello js dev");
 }
 
 {
+/*  
   let str = "     I am \nAryan\tKandpal     ";
   let str1 = "Uttar";
   let str2 = "Pradesh";
@@ -312,4 +313,9 @@ console.log("\t\t\t\t\thello js dev");
   console.log(`Concatenate with using method : ${str1.concat(str2)}`);
   console.log(`replace : ${str1.replace('Uttar','Himachal')}`);
   console.log(`str char position by index : ${str.charAt(3)}`);
+*/
+}
+
+{
+  
 }
