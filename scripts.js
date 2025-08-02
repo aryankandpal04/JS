@@ -298,6 +298,7 @@ console.log("\t\t\t\t\thello js dev");
 }
 
 {
+  // String Method
 /*  
   let str = "     I am \nAryan\tKandpal     ";
   let str1 = "Uttar";
@@ -317,5 +318,10 @@ console.log("\t\t\t\t\thello js dev");
 }
 
 {
+  // Arrays
+
+  let arr = [1,2,3,4,5];
+
+  console.log(`Array : ${arr} and its type is ${typeof(arr)}`);
   
 }
