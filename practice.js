@@ -80,6 +80,7 @@
 }
 
 {
+    /*
     let firstName = "Aryan";
     let lastName = "Kandpal";
 
@@ -87,6 +88,19 @@
 
     console.log('@' + userName.toLowerCase() + userName.length)
 
+*/
 
+}
+
+{
+    // Q6 - For a given array with marks of students -> [85, 97, 44, 37, 76, 60]. Find the average marks of the entire class.
+
+    let marks = [85, 97, 44, 37, 76, 60];
+
+    let total = marks.length;
+
+    for(let sum of marks){
+        console.log(sum);
+    }
 
 }
