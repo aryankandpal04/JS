@@ -320,7 +320,7 @@ console.log("\t\t\t\t\thello js dev");
 {
   {
     // Arrays
-  /*
+    /*
     let arr = [1, 2, 3, 4, 5];
 
     console.log(`Array : ${arr} and its type is ${typeof arr}`);
@@ -329,8 +329,22 @@ console.log("\t\t\t\t\thello js dev");
 
   {
     // loops in array
+/*
+    //for loop
+    let dairy = ["Milk", "Paneer", "Yogurt", "Curd", "Butter", "Ghee", "Cream"];
 
-    
+    for (let i = 0; i < dairy.length; i++) {
+      console.log(dairy[i]);
+    }
+
+    //for of loop
+    for (let items of dairy) {
+      console.log(items.toUpperCase());
+    }
+      */
   }
+  
+  {
 
+  }
 }
