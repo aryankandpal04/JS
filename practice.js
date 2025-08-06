@@ -94,16 +94,28 @@
 
 {
     // Q6 - For a given array with marks of students -> [85, 97, 44, 37, 76, 60]. Find the average marks of the entire class.
-
+/*
     let marks = [85, 97, 44, 37, 76, 60];
 
     let total = marks.length;
+    let sum = 0;
 
-    for(let sum of marks){
-        console.log(sum);
+    for(let val of marks){
+        
+        sum = sum + val;
     }
 
-
     console.log(`Average of marks ${sum/total}`);
+    */
 
+}
+
+{
+    // Q7 - For a given array with prices of 5 items -> [250, 645, 300, 900, 50] All items have an offer of 10% OFF on them. Change the array to store final price after applying offer.
+
+    let itemPrices = [250, 645, 300, 900, 50];
+
+
+
+    console.log(`Items before an offer of 10% OFF on them : ${itemPrices}\nItems after an offer of 10% OFF on them : `);
 }
