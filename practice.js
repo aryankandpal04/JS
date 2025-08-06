@@ -115,7 +115,7 @@
 
     let itemPrices = [250, 645, 300, 900, 50];
 
-
+    
 
     console.log(`Items before an offer of 10% OFF on them : ${itemPrices}\nItems after an offer of 10% OFF on them : `);
 }
