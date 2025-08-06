@@ -126,7 +126,5 @@
         offerPrices[4] = itemPrices[4] - (itemPrices[4] * 0.10);
     }
 
-
-
     console.log(`Items before an offer of 10% OFF on them : ${itemPrices}\nItems after an offer of 10% OFF on them : ${offerPrices}`);
 }
