@@ -114,11 +114,9 @@
   let itemPrices = [250, 645, 300, 900, 50];
   let offerPrices = [];
 
-  for (let val of itemPrices) {
-    offerPrices[val] = itemPrices[val] - itemPrices[val] * 0.1;
+  for (let i = 0 ; i < itemPrices.length ; i++) {
+    offerPrices[i] = itemPrices[i] - itemPrices[i] * 0.1;
   }
 
-  console.log(
-    `Items before an offer of 10% OFF on them : ${itemPrices}\nItems after an offer of 10% OFF on them : ${offerPrices}`
-  );
+  console.log(`Items before an offer of 10% OFF on them : ${itemPrices}\nItems after an offer of 10% OFF on them : ${offerPrices}`);
 }
