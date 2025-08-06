@@ -103,4 +103,7 @@
         console.log(sum);
     }
 
+
+    console.log(`Average of marks ${sum/total}`);
+
 }
