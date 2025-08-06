@@ -115,11 +115,7 @@
   let offerPrices = [];
 
   for (let val of itemPrices) {
-    offerPrices[0] = itemPrices[0] - itemPrices[0] * 0.1;
-    offerPrices[1] = itemPrices[1] - itemPrices[1] * 0.1;
-    offerPrices[2] = itemPrices[2] - itemPrices[2] * 0.1;
-    offerPrices[3] = itemPrices[3] - itemPrices[3] * 0.1;
-    offerPrices[4] = itemPrices[4] - itemPrices[4] * 0.1;
+    offerPrices[val] = itemPrices[val] - itemPrices[val] * 0.1;
   }
 
   console.log(
