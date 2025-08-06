@@ -1,8 +1,8 @@
 // Practice
 
 {
-    //Q1 - Get user to input a number using prompt("Enter a number:"). Check if the number is a multiple of 5 or not.
-/*
+  //Q1 - Get user to input a number using prompt("Enter a number:"). Check if the number is a multiple of 5 or not.
+  /*
     let num = prompt("enter a number : ");
     num = Number(num);
     if (num % 5 === 0){
@@ -17,7 +17,7 @@
 }
 
 {
-    /*
+  /*
     Q2 - Write a code which can give grades to students according to their scores.
       -  90-100, A
       -  70-89, B
@@ -25,7 +25,7 @@
       -  50-59, D
       -  0-49, F
     */
-/*
+  /*
     let marks = prompt("enter your marks : ");
     let grade;
     marks = Number(marks);
@@ -54,8 +54,8 @@
 }
 
 {
-    // Q3 - Print all even numbers from 0 to 100.
-/*
+  // Q3 - Print all even numbers from 0 to 100.
+  /*
     for(let i = 0 ; i <= 100 ; i++){
         if(i%2 === 0 ){
             console.log(i);
@@ -65,8 +65,8 @@
 }
 
 {
-    // Q4 - Guess the correct number
-/*    
+  // Q4 - Guess the correct number
+  /*    
     let gameNum = 86;
 
     let userInput = prompt("guess any number : ");
@@ -80,7 +80,7 @@
 }
 
 {
-    /*
+  /*
     let firstName = "Aryan";
     let lastName = "Kandpal";
 
@@ -89,12 +89,11 @@
     console.log('@' + userName.toLowerCase() + userName.length)
 
 */
-
 }
 
 {
-    // Q6 - For a given array with marks of students -> [85, 97, 44, 37, 76, 60]. Find the average marks of the entire class.
-/*
+  // Q6 - For a given array with marks of students -> [85, 97, 44, 37, 76, 60]. Find the average marks of the entire class.
+  /*
     let marks = [85, 97, 44, 37, 76, 60];
 
     let total = marks.length;
@@ -107,24 +106,21 @@
 
     console.log(`Average of marks ${sum/total}`);
     */
-
 }
 
 {
-    // Q7 - For a given array with prices of 5 items -> [250, 645, 300, 900, 50] All items have an offer of 10% OFF on them. Change the array to store final price after applying offer.
+  // Q7 - For a given array with prices of 5 items -> [250, 645, 300, 900, 50] All items have an offer of 10% OFF on them. Change the array to store final price after applying offer.
 
-    let itemPrices = [250, 645, 300, 900, 50];
-    let offerPrices = [];
+  let itemPrices = [250, 645, 300, 900, 50];
+  let offerPrices = [];
 
+  offerPrices[0] = itemPrices[0] - itemPrices[0] * 0.1;
+  offerPrices[1] = itemPrices[1] - itemPrices[1] * 0.1;
+  offerPrices[2] = itemPrices[2] - itemPrices[2] * 0.1;
+  offerPrices[3] = itemPrices[3] - itemPrices[3] * 0.1;
+  offerPrices[4] = itemPrices[4] - itemPrices[4] * 0.1;
 
-    for (let val of itemPrices){
-        
-        offerPrices[0] = itemPrices[0] - (itemPrices[0] * 0.10);
-        offerPrices[1] = itemPrices[1] - (itemPrices[1] * 0.10);
-        offerPrices[2] = itemPrices[2] - (itemPrices[2] * 0.10);
-        offerPrices[3] = itemPrices[3] - (itemPrices[3] * 0.10);
-        offerPrices[4] = itemPrices[4] - (itemPrices[4] * 0.10);
-    }
-
-    console.log(`Items before an offer of 10% OFF on them : ${itemPrices}\nItems after an offer of 10% OFF on them : ${offerPrices}`);
+  console.log(
+    `Items before an offer of 10% OFF on them : ${itemPrices}\nItems after an offer of 10% OFF on them : ${offerPrices}`
+  );
 }
