@@ -114,8 +114,19 @@
     // Q7 - For a given array with prices of 5 items -> [250, 645, 300, 900, 50] All items have an offer of 10% OFF on them. Change the array to store final price after applying offer.
 
     let itemPrices = [250, 645, 300, 900, 50];
+    let offerPrices = [];
 
-    
 
-    console.log(`Items before an offer of 10% OFF on them : ${itemPrices}\nItems after an offer of 10% OFF on them : `);
+    for (let val of itemPrices){
+        
+        offerPrices[0] = itemPrices[0] - (itemPrices[0] * 0.10);
+        offerPrices[1] = itemPrices[1] - (itemPrices[1] * 0.10);
+        offerPrices[2] = itemPrices[2] - (itemPrices[2] * 0.10);
+        offerPrices[3] = itemPrices[3] - (itemPrices[3] * 0.10);
+        offerPrices[4] = itemPrices[4] - (itemPrices[4] * 0.10);
+    }
+
+
+
+    console.log(`Items before an offer of 10% OFF on them : ${itemPrices}\nItems after an offer of 10% OFF on them : ${offerPrices}`);
 }
